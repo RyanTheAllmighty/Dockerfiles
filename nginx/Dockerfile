@@ -5,13 +5,16 @@ FROM debian:jessie
 MAINTAINER Ryan Dowling <ryan@ryandowling.me>
 
 # The version of nginx we want to build and use
-ARG VERSION=1.9.7
+ARG VERSION
 
 # The packages we want to install from the package manager and keep
 ENV PACKAGES_FOR_INSTALL 'libpcre3 geoip-bin ca-certificates'
 
 # The packages we want to install from the package manager to use to build and remove after we're done
 ENV PACKAGES_FOR_BUILD 'curl make g++ gcc libpcre3-dev libssl-dev libgeoip-dev'
+
+# This ensures that a version argument has to be passed into the build
+RUN if [ -z "$VERSION" ]; then echo "VERSION must be set!"; exit 1; fi
 
 # Get the packages installed, removed, cleaned up as well as build and install Nginx
 RUN set -x && \
