@@ -8,7 +8,7 @@ This is a build for [PHP](http://php.net/).
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/php).
 
 # Description
-This image of node is built from source using debian:jessie as a base.
+This image of PHP is built from source using debian:jessie as a base.
 
 # Build Arguments
 VERSION: The version of PHP to build. If not provided the build will fail.
