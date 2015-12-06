@@ -4,7 +4,7 @@ This is a repository for all my Dockerfiles used to build my own Docker images
 You can find specific details for each of the Docker files in each of the directories of this repository.
 
 # Docker Hub
-My images are available on Docker Hub as automated builds [here](https://hub.docker.com/u/ryantheallmighty/).
+My images are available on Docker Hub [here](https://hub.docker.com/u/ryantheallmighty/).
 
 # Warnings and General Notices
 These images are based mostly off their Docker Hub official image Dockerfiles with some tweaks here and there to suit my own setup.
@@ -19,8 +19,6 @@ There is only 1 build argument which can be passed to most build processes using
 VERSION: This will set the version of the software to build.
 
 Any extra build arguments will be provided in each of the README files in the build's directory.
-
-**NOTE**: Docker Hub doesn't support 1.9 in Docker hub automated builds, so these build arguments have been removed from the Dockerfile's.
 
 # Directories
 Each build will use the /mnt/ directory as it's base of operations for any files it uses.

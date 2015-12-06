@@ -1,11 +1,11 @@
 # Created and maintained by RyanTheAllmighty
-# https://github.com/RyanTheAllmighty/Dockerfiles
+# https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/nginx
 
 FROM debian:jessie
 MAINTAINER Ryan Dowling <ryan@ryandowling.me>
 
 # The version of nginx we want to build and use
-ENV VERSION=1.9.7
+ARG VERSION=1.9.7
 
 # The packages we want to install from the package manager and keep
 ENV PACKAGES_FOR_INSTALL 'libpcre3 geoip-bin ca-certificates'
