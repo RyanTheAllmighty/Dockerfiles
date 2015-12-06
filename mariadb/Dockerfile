@@ -1,5 +1,5 @@
 # Created and maintained by RyanTheAllmighty
-# https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/node
+# https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/mariadb
 
 FROM debian:jessie
 MAINTAINER Ryan Dowling <ryan@ryandowling.me>

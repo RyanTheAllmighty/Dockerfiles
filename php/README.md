@@ -1,4 +1,4 @@
-# php
+# PHP
 This is a build for [PHP](http://php.net/).
 
 # Versions & Tags
