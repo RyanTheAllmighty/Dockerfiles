@@ -5,7 +5,7 @@ This is a build for [Composer](https://getcomposer.org/).
 - `latest`
 
 # Github
-The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/php).
+The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/composer).
 
 # Description
 This image of Composer is built from source using ryantheallmighty/php:5.6 as a base.
