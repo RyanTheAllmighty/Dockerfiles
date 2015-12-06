@@ -5,7 +5,7 @@ FROM debian:jessie
 MAINTAINER Ryan Dowling <ryan@ryandowling.me>
 
 # The version of nginx we want to build and use
-ARG VERSION=1.9.7
+ENV VERSION=1.9.7
 
 # The packages we want to install from the package manager and keep
 ENV PACKAGES_FOR_INSTALL 'libpcre3 geoip-bin ca-certificates'

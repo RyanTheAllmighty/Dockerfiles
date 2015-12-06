@@ -8,9 +8,6 @@ It compiles with a bunch of modules activated.
 
 This images uses a nginx user and a nginx group for the nginx process.
 
-# Build Arguments
-VERSION: The version of nginx to build. Defaults to the latest mainline version.
-
 # Included Configs
 These configs are included in the image and are located in the container in the /etc/nginx/conf/conf.d directory.
 

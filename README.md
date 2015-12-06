@@ -20,6 +20,8 @@ VERSION: This will set the version of the software to build.
 
 Any extra build arguments will be provided in each of the README files in the build's directory.
 
+**NOTE**: Docker Hub doesn't support 1.9 in Docker hub automated builds, so these build arguments have been removed from the Dockerfile's.
+
 # Directories
 Each build will use the /mnt/ directory as it's base of operations for any files it uses.
 
