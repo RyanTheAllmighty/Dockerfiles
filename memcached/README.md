@@ -27,7 +27,7 @@ To use this image simply run it like the following:
 docker run -d ryantheallmighty/memcached
 ```
 
-This will start Memcached up with it's default paramaters which are:
+This will start Memcached up with it's default parameters which are:
 
 ```
 memcached -u memcached -m 1024 -c 1024 -p 11211 -n 72 -o slab_reassign,slab_automove
