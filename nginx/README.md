@@ -1,6 +1,9 @@
 # nginx
 This is a build for [nginx](http://nginx.org/).
 
+# Github
+The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/nginx).
+
 # Description
 This image of nginx is built from source using debian:jessie as a base.
 
