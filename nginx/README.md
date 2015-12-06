@@ -1,6 +1,9 @@
 # nginx
 This is a build for [nginx](http://nginx.org/).
 
+# Versions & Tags
+- `1.9.7`, `1.9`, `1`, `latest`
+
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/nginx).
 
