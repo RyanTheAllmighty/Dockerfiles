@@ -51,3 +51,6 @@ This directory is where all of the nginx logs are stored. Please note that this 
 
 ## /mnt/site/
 This directory is where I store my applications code generally. It is chowned to the nginx user and group on container startup if it exists.
+
+# Ports
+This image exposes port 80 and 443 for http and https connections.

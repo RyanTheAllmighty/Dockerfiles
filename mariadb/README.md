@@ -34,7 +34,7 @@ If both are provided this will create a user with the given username and passwor
 ## MYSQL_APP_DATABASE
 If provided along with the 2 above environment variables this will create a database with this name and assign it to the above user on first startup.
 
-## Ports
+# Ports
 This image exposes port 3306 which is the port that MariaDB listens on for connections.
 
 # Usage
