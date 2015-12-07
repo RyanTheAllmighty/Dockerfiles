@@ -42,6 +42,15 @@ RUN set -x && \
 
     curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
 
+    apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys 199369E5404BD5FC7D2FE43BCBCB082A1BB943DB && \
+    add-apt-repository "deb http://mirror.aarnet.edu.au/pub/MariaDB/mariadb-10.1.9/repo/debian jessie main" && \
+    echo 'Package: *' >> /etc/apt/preferences.d/mariadb && \
+    echo 'Pin: release o=MariaDB' >> /etc/apt/preferences.d/mariadb && \
+    echo 'Pin-Priority: 999' >> /etc/apt/preferences.d/mariadb && \
+
+    apt-get update && \
+    apt-get install -y mariadb-client && \
+
     apt-get remove -y ${PACKAGES_FOR_BUILD} && \
     apt-get autoremove -y && \
     apt-get clean && \

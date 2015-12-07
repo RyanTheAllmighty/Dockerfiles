@@ -17,7 +17,7 @@ To use this image simply run it like the following:
 docker run -it ryantheallmighty/utility
 ```
 
-Which will by default give you a bash shell. You also have access to other tools such as php, composer, node, npm and basic Linux tools.
+Which will by default give you a bash shell. You also have access to other tools such as php, mysql, composer, node, npm and basic Linux tools.
 
 ```
 docker run -it ryantheallmighty/utility cat /etc/hostname
