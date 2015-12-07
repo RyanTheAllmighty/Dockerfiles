@@ -8,7 +8,7 @@ MAINTAINER Ryan Dowling <ryan@ryandowling.me>
 ENV PACKAGES_FOR_INSTALL 'curl unzip git ca-certificates curl libgd3 libmcrypt4 libpcre3 libsqlite3-0 libxml2 bzip2 librecode-dev'
 
 # The packages we want to install from the package manager to use to build and remove after we're done
-ENV PACKAGES_FOR_BUILD 'file g++ gcc make pkg-config autoconf re2c libcurl4-openssl-dev libpcre3-dev libreadline6-dev libsqlite3-dev libssl-dev libxml2-dev xz-utils libzip-dev libbz2-dev libgd-dev libmcrypt-dev libedit-dev'
+ENV PACKAGES_FOR_BUILD 'debconf-utils software-properties-common file g++ gcc make pkg-config autoconf re2c libcurl4-openssl-dev libpcre3-dev libreadline6-dev libsqlite3-dev libssl-dev libxml2-dev xz-utils libzip-dev libbz2-dev libgd-dev libmcrypt-dev libedit-dev'
 
 # Get the packages installed, removed, cleaned up as well as build and install RethinkDB
 RUN set -x && \
