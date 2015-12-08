@@ -5,7 +5,7 @@ This is a utility image I use for various things and stuff.
 - `latest`
 
 # Github
-The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/rethinkdb).
+The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/utility).
 
 # Description
 This image of Utility is built from source using debian:jessie as a base.

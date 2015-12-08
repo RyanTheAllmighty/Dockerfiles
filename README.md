@@ -16,6 +16,7 @@ Pretty much all of my Dockerfiles are meant to take in build arguments (availabl
 
 There is only 1 build argument which can be passed to most build processes using the [--build-arg](http://docs.docker.com/engine/reference/builder/#arg) argument:
 
+
 VERSION: This will set the version of the software to build. In most cases not including this will cause the build to fail.
 
 Any extra build arguments will be provided in each of the README files in the build's directory.
