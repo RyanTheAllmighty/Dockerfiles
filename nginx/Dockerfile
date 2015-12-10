@@ -45,8 +45,6 @@ RUN set -x && \
     cd /usr/src/nginx/nginx-${VERSION} && \
     ./configure --prefix=/etc/nginx \
                 --sbin-path=/usr/sbin/nginx \
-                --user=nginx \
-                --group=nginx \
                 --conf-path=/etc/nginx/nginx.conf \
                 --error-log-path=/var/log/nginx/error.log \
                 --http-log-path=/var/log/nginx/access.log \
@@ -57,6 +55,8 @@ RUN set -x && \
                 --http-fastcgi-temp-path=/var/cache/nginx/fastcgi_temp \
                 --http-uwsgi-temp-path=/var/cache/nginx/uwsgi_temp \
                 --http-scgi-temp-path=/var/cache/nginx/scgi_temp \
+                --user=nginx \
+                --group=nginx \
                 --with-http_ssl_module \
                 --with-http_realip_module \
                 --with-http_addition_module \
@@ -94,9 +94,12 @@ COPY entrypoint.sh /entrypoint.sh
 RUN chown -R nginx:nginx /etc/nginx && \
     chown -R nginx:nginx /var/cache/nginx
 
-EXPOSE 80 443
+RUN ln -sf /dev/stdout /var/log/nginx/access.log
+RUN ln -sf /dev/stderr /var/log/nginx/error.log
 
-VOLUME ["/mnt/logs/nginx"]
+VOLUME ["/var/cache/nginx"]
+
+EXPOSE 80 443
 
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["nginx"]

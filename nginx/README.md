@@ -8,7 +8,8 @@ It compiles with a bunch of modules activated.
 This images uses a nginx user and a nginx group for the nginx process.
 
 # Versions & Tags
-- `1.9.7`, `1.9`, `1`, `latest`
+- `1.9.7`
+- `1.9.9`, `1.9`, `1`, `latest`
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/nginx).
@@ -44,9 +45,6 @@ This directory is where nginx reads all it's site configuration files from.
 
 ## /etc/nginx/conf.d/
 This directory is where nginx reads all it's additional configuration files from.
-
-## /mnt/logs/nginx/
-This directory is where all of the nginx logs are stored. Please note that this image expects to host only one site and that it's logs are stored at 'site-access.log' and 'site-error.log'. Any deviation from this may or may not work correctly.
 
 ## /mnt/site/
 This directory is where I store my applications code generally. It is chowned to the nginx user and group on container startup if it exists.
