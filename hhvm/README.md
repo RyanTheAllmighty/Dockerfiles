@@ -18,10 +18,6 @@ This is stored in /etc/hhvm/ and provides the config for HHVM
 When this environment variable is provided and is set to true it will enable the use of Redis for sessions. By default it expects there to be an instance of Redis running with a host of 'redis' on
 port '6379'.
 
-# Directories
-## /mnt/logs/hhvm/
-This directory is where all of the HHVM logs are stored.
-
 # Ports
 This image exposes port 9000 for communication with HHVM.
 

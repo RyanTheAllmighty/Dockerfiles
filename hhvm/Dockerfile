@@ -36,7 +36,5 @@ RUN chown www-data:www-data /etc/hhvm/server.ini
 
 EXPOSE 9000
 
-VOLUME ["/mnt/logs/hhvm"]
-
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["hhvm", "--config /etc/hhvm/server.ini", "--user www-data", "--mode server"]
