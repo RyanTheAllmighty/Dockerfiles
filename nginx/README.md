@@ -1,18 +1,17 @@
 # nginx
+[![Docker Stars](https://img.shields.io/docker/stars/ryantheallmighty/nginx.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/nginx/) [![Docker Pulls](https://img.shields.io/docker/pulls/ryantheallmighty/nginx.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/nginx/) [![Image Size](https://img.shields.io/imagelayers/image-size/ryantheallmighty/nginx/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Fnginx) [![Image Layers](https://img.shields.io/imagelayers/layers/ryantheallmighty/nginx/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Fnginx)
+
 This is a build for [nginx](http://nginx.org/).
+
+It compiles with a bunch of modules activated.
+
+This images uses a nginx user and a nginx group for the nginx process.
 
 # Versions & Tags
 - `1.9.7`, `1.9`, `1`, `latest`
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/nginx).
-
-# Description
-This image of nginx is built from source using debian:jessie as a base.
-
-It compiles with a bunch of modules activated.
-
-This images uses a nginx user and a nginx group for the nginx process.
 
 # Build Arguments
 VERSION: The version of nginx to build. If not provided the build will fail.

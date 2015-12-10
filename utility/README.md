@@ -1,4 +1,6 @@
 # Utility
+[![Docker Stars](https://img.shields.io/docker/stars/ryantheallmighty/utility.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/utility/) [![Docker Pulls](https://img.shields.io/docker/pulls/ryantheallmighty/utility.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/utility/) [![Image Size](https://img.shields.io/imagelayers/image-size/ryantheallmighty/utility/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Futility) [![Image Layers](https://img.shields.io/imagelayers/layers/ryantheallmighty/utility/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Futility)
+
 This is a utility image I use for various things and stuff.
 
 # Versions & Tags
@@ -6,9 +8,6 @@ This is a utility image I use for various things and stuff.
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/utility).
-
-# Description
-This image of Utility is built from source using debian:jessie as a base.
 
 # Usage
 To use this image simply run it like the following:

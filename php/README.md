@@ -1,4 +1,6 @@
 # PHP
+[![Docker Stars](https://img.shields.io/docker/stars/ryantheallmighty/php.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/php/) [![Docker Pulls](https://img.shields.io/docker/pulls/ryantheallmighty/php.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/php/) [![Image Size](https://img.shields.io/imagelayers/image-size/ryantheallmighty/php/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Fphp) [![Image Layers](https://img.shields.io/imagelayers/layers/ryantheallmighty/php/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Fphp)
+
 This is a build for [PHP](http://php.net/).
 
 # Versions & Tags
@@ -6,9 +8,6 @@ This is a build for [PHP](http://php.net/).
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/php).
-
-# Description
-This image of PHP is built from source using debian:jessie as a base.
 
 # Build Arguments
 VERSION: The version of PHP to build. If not provided the build will fail.

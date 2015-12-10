@@ -1,4 +1,6 @@
 # HHVM
+[![Docker Stars](https://img.shields.io/docker/stars/ryantheallmighty/hhvm.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/hhvm/) [![Docker Pulls](https://img.shields.io/docker/pulls/ryantheallmighty/hhvm.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/hhvm/) [![Image Size](https://img.shields.io/imagelayers/image-size/ryantheallmighty/hhvm/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Fhhvm) [![Image Layers](https://img.shields.io/imagelayers/layers/ryantheallmighty/hhvm/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Fhhvm)
+
 This is a build for [HHVM](http://hhvm.com/).
 
 # Versions & Tags
@@ -6,9 +8,6 @@ This is a build for [HHVM](http://hhvm.com/).
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/hhvm).
-
-# Description
-This image of HHVM is built from source using debian:jessie as a base.
 
 # Included Configs
 ## server.ini

@@ -1,4 +1,6 @@
 # Redis
+[![Docker Stars](https://img.shields.io/docker/stars/ryantheallmighty/redis.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/redis/) [![Docker Pulls](https://img.shields.io/docker/pulls/ryantheallmighty/redis.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/redis/) [![Image Size](https://img.shields.io/imagelayers/image-size/ryantheallmighty/redis/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Fredis) [![Image Layers](https://img.shields.io/imagelayers/layers/ryantheallmighty/redis/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Fredis)
+
 This is a build for [Redis](http://redis.io/).
 
 # Versions & Tags
@@ -6,9 +8,6 @@ This is a build for [Redis](http://redis.io/).
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/redis).
-
-# Description
-This image of Redis is built from source using debian:jessie as a base.
 
 # Build Arguments
 VERSION: The version of Redis to build. If not provided the build will fail.

@@ -1,15 +1,15 @@
-# NodeJS
+# Node
+[![Docker Stars](https://img.shields.io/docker/stars/ryantheallmighty/node.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/node/) [![Docker Pulls](https://img.shields.io/docker/pulls/ryantheallmighty/node.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/node/) [![Image Size](https://img.shields.io/imagelayers/image-size/ryantheallmighty/node/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Fnode) [![Image Layers](https://img.shields.io/imagelayers/layers/ryantheallmighty/node/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Fnode)
+
 This is a build for [NodeJS](https://nodejs.org/en/).
 
 # Versions & Tags
 - `4.2.3`, `4.2`, `4`
-- `5.1.1`, `5.1`, `5`, `latest`
+- `5.1.1`, `5.1`, `5`
+- `5.2.0`, `5.2`, `5`, `latest`
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/node).
-
-# Description
-This image of node is built from source using debian:jessie as a base.
 
 # Build Arguments
 VERSION: The version of node to build. If not provided the build will fail.

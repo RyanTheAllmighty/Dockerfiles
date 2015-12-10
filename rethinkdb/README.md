@@ -1,4 +1,6 @@
 # RethinkDB
+[![Docker Stars](https://img.shields.io/docker/stars/ryantheallmighty/rethinkdb.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/rethinkdb/) [![Docker Pulls](https://img.shields.io/docker/pulls/ryantheallmighty/rethinkdb.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/rethinkdb/) [![Image Size](https://img.shields.io/imagelayers/image-size/ryantheallmighty/rethinkdb/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Frethinkdb) [![Image Layers](https://img.shields.io/imagelayers/layers/ryantheallmighty/rethinkdb/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Frethinkdb)
+
 This is a build for [RethinkDB](http://rethinkdb.com/).
 
 # Versions & Tags
@@ -6,9 +8,6 @@ This is a build for [RethinkDB](http://rethinkdb.com/).
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/rethinkdb).
-
-# Description
-This image of RethinkDB is built from source using debian:jessie as a base.
 
 # Build Arguments
 VERSION: The version of RethinkDB to build. If not provided the build will fail.

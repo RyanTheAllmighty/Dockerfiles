@@ -1,4 +1,6 @@
 # MariaDB
+[![Docker Stars](https://img.shields.io/docker/stars/ryantheallmighty/mariadb.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/mariadb/) [![Docker Pulls](https://img.shields.io/docker/pulls/ryantheallmighty/mariadb.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/mariadb/) [![Image Size](https://img.shields.io/imagelayers/image-size/ryantheallmighty/mariadb/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Fmariadb) [![Image Layers](https://img.shields.io/imagelayers/layers/ryantheallmighty/mariadb/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Fmariadb)
+
 This is a build for [MariaDB](https://mariadb.org/).
 
 # Versions & Tags
@@ -6,9 +8,6 @@ This is a build for [MariaDB](https://mariadb.org/).
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/mariadb).
-
-# Description
-This image of MariaDB is built from source using debian:jessie as a base.
 
 # Build Arguments
 VERSION: The version of MariaDB to build. If not provided the build will fail.

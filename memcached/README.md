@@ -1,4 +1,6 @@
 # Memcached
+[![Docker Stars](https://img.shields.io/docker/stars/ryantheallmighty/memcached.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/memcached/) [![Docker Pulls](https://img.shields.io/docker/pulls/ryantheallmighty/memcached.svg?style=flat-square)](https://hub.docker.com/r/ryantheallmighty/memcached/) [![Image Size](https://img.shields.io/imagelayers/image-size/ryantheallmighty/memcached/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Fmemcached) [![Image Layers](https://img.shields.io/imagelayers/layers/ryantheallmighty/memcached/latest.svg?style=flat-square)](https://imagelayers.io/?images=ryantheallmighty%2Fmemcached)
+
 This is a build for [Memcached](http://memcached.org/).
 
 # Versions & Tags
