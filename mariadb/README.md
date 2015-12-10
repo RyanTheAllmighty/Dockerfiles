@@ -17,9 +17,6 @@ VERSION: The version of MariaDB to build. If not provided the build will fail.
 This is stored in /etc/mysql/ and provides the configs for MariaDB.
 
 # Directories
-## /mnt/logs/mariadb/
-This directory is where all of the MariaDB logs are stored.
-
 ## /mnt/data/mariadb/
 This directory is where all of the databases are stored for MariaDB.
 

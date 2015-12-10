@@ -18,7 +18,6 @@ if [ "${1:0:6}" = 'mysqld' ]; then
     # Check if the mysql folder exists in the data dir, if so then we're probably already setup
     if [ ! -d "/mnt/data/mariadb/mysql" ]; then
         # Make the directories we need
-        mkdir -p /mnt/logs/mariadb
         mkdir -p /mnt/data/mariadb
         chown -R mysql:mysql /mnt/data/mariadb
 

@@ -53,7 +53,7 @@ RUN chown mysql:mysql /etc/mysql/my.cnf && \
 
 EXPOSE 3306
 
-VOLUME ["/mnt/data/mariadb", "/mnt/logs/mariadb"]
+VOLUME ["/mnt/data/mariadb"]
 
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["mysqld"]
