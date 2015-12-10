@@ -16,9 +16,6 @@ This image of Memcached is built from source using debian:jessie as a base.
 VERSION: The version of Memcached to build. If not provided the build will fail.
 
 # Directories
-## /mnt/logs/memcached/
-This directory is where all of the Memcached logs are stored.
-
 # Ports
 This image exposes port 11211 for communication with Memcached.
 

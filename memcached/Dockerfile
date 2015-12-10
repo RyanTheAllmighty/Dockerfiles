@@ -46,8 +46,6 @@ COPY entrypoint.sh /entrypoint.sh
 
 EXPOSE 11211
 
-VOLUME ["/mnt/logs/memcached"]
-
 USER memcached
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["memcached", "-u memcached", "-m 1024", "-c 1024", "-p 11211", "-n 72", "-o slab_reassign,slab_automove"]
