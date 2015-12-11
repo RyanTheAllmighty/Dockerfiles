@@ -43,6 +43,10 @@ RUN set -x && \
 
 COPY entrypoint.sh /entrypoint.sh
 
+RUN mkdir /data && chown redis:redis /data
+VOLUME /data
+WORKDIR /data
+
 EXPOSE 6379
 
 ENTRYPOINT ["/entrypoint.sh"]

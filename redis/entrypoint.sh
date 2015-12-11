@@ -8,4 +8,7 @@ if [ "${1:0:1}" = '-' ]; then
 	set -- redis-server "$@"
 fi
 
+# Chown this directory to redis
+chown -R redis .
+
 exec gosu redis $@
