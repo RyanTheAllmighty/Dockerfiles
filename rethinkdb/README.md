@@ -12,14 +12,6 @@ The files for this build are available [here](https://github.com/RyanTheAllmight
 # Build Arguments
 VERSION: The version of RethinkDB to build. If not provided the build will fail.
 
-# Included Configs
-## instance.conf
-This is stored in /etc/rethinkdb/ and provides the config for RethinkDB
-
-# Directories
-## /mnt/logs/rethinkdb/
-This directory is where all of the RethinkDB logs are stored.
-
 # Ports
 This image exposes port 8080 for the web interface, 28015 for communication with RethinkDB and 29015 for cluster communication.
 

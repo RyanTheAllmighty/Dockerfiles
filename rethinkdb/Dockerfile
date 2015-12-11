@@ -33,14 +33,11 @@ RUN set -x && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc /usr/share/man
 
-COPY instance.conf /etc/rethinkdb/instance.conf
 COPY entrypoint.sh /entrypoint.sh
-
-RUN chown rethinkdb:rethinkdb /etc/rethinkdb/instance.conf
 
 EXPOSE 8080 28015 29015
 
-VOLUME ["/mnt/data/rethinkdb", "/mnt/logs/rethinkdb"]
+VOLUME ["/mnt/data/rethinkdb"]
 
 ENTRYPOINT ["/entrypoint.sh"]
-CMD ["rethinkdb", "--config-file /etc/rethinkdb/instance.conf"]
+CMD ["rethinkdb", "--bind", "all"]
