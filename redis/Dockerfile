@@ -41,7 +41,6 @@ RUN set -x && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/lib/gcc /usr/share/doc /usr/share/man
 
-COPY redis.conf /etc/redis.conf
 COPY entrypoint.sh /entrypoint.sh
 
 EXPOSE 6379
