@@ -12,14 +12,6 @@ The files for this build are available [here](https://github.com/RyanTheAllmight
 # Build Arguments
 VERSION: The version of Redis to build. If not provided the build will fail.
 
-# Included Configs
-## redis.conf
-This is stored in /etc/ and provides the config for Redis
-
-# Directories
-## /mnt/logs/redis/
-This directory is where all of the Redis logs are stored.
-
 # Ports
 This image exposes port 6379 for communication with Redis.
 
