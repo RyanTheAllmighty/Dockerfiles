@@ -25,11 +25,11 @@ docker run -d ryantheallmighty/rethinkdb
 This will start RethinkDB up with it's default parameters which are:
 
 ```
-rethinkdb --config-file /etc/rethinkdb/instance.conf
+rethinkdb --bind all
 ```
 
 You can provide your own options as below:
 
 ```
-docker run -d ryantheallmighty/rethinkdb rethinkdb --config-file /etc/rethinkdb/another-instance.conf
+docker run -d ryantheallmighty/rethinkdb rethinkdb --config-file /etc/rethinkdb/instance.conf
 ```
