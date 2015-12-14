@@ -24,8 +24,6 @@ Any extra build arguments will be provided in each of the README files in the bu
 # Directories
 Each build will use the /mnt/ directory as it's base of operations for any files it uses.
 
-All logs will be stored in the /mnt/logs/{build name}/ directory for instance.
-
 All the important directories will be listed in each of the README files in the build's directory.
 
 # License
