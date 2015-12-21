@@ -1,7 +1,7 @@
 # Created and maintained by RyanTheAllmighty
 # https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/composer
 
-FROM ryantheallmighty/php:5.6
+FROM ryantheallmighty/php:7.0
 MAINTAINER Ryan Dowling <ryan@ryandowling.me>
 
 # Install composer
