@@ -8,7 +8,7 @@ MAINTAINER Ryan Dowling <ryan@ryandowling.me>
 ARG VERSION
 
 # The packages we want to install from the package manager and keep
-ENV PACKAGES_FOR_INSTALL 'openssl'
+ENV PACKAGES_FOR_INSTALL 'openssl git ca-certificates curl'
 
 # The packages we want to install from the package manager to use to build and remove after we're done
 ENV PACKAGES_FOR_BUILD ''
