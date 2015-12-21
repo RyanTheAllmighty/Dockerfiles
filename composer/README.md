@@ -4,8 +4,8 @@
 This is a build for [Composer](https://getcomposer.org/).
 
 # Versions & Tags
-- `php5`
-- `php7`, `latest`
+- `php5.6`, `php5`
+- `php7.0`, `php7`, `latest`
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/composer).

@@ -4,6 +4,8 @@
 This is a build for [HHVM](http://hhvm.com/).
 
 # Versions & Tags
+- `3.6.6`, `3.6`
+- `3.9.1`, `3.9`
 - `3.10.1`, `3.10`, `3`, `latest`
 
 # Github
