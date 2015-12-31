@@ -29,10 +29,12 @@ RUN set -x && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc /usr/share/man
 
+COPY server.ini /etc/hhvm/php.ini
 COPY server.ini /etc/hhvm/server.ini
 COPY entrypoint.sh /entrypoint.sh
 
-RUN chown www-data:www-data /etc/hhvm/server.ini
+RUN chown www-data:www-data /etc/hhvm/server.ini && \
+    chown www-data:www-data /etc/hhvm/php.ini
 
 EXPOSE 9000
 
