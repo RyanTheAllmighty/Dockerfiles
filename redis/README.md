@@ -4,7 +4,8 @@
 This is a build for [Redis](http://redis.io/).
 
 # Versions & Tags
-- `3.0.5`, `3.0`, `3`, `latest`
+- `3.0.5`
+- `3.0.6`, `3.0`, `3`, `latest`
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/redis).
