@@ -6,7 +6,7 @@ This is a build for [HHVM](http://hhvm.com/).
 # Versions & Tags
 - `3.6.6`, `3.6`
 - `3.9.1`, `3.9`
-- `3.10.1`, `3.10`, `3`, `latest`
+- `3.11.0`, `3.11`, `3`, `latest`
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/hhvm).
