@@ -41,3 +41,6 @@ You can provide your own options as below:
 ```
 docker run -d ryantheallmighty/hhvm hhvm --config /etc/hhvm/server.ini --user www-data
 ```
+
+# XDebug
+Xdebug is enabled by default.

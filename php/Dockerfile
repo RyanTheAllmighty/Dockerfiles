@@ -42,11 +42,13 @@ RUN set -x && \
     mkdir -p /usr/src/xdebug && \
     curl -SL "http://xdebug.org/files/xdebug-2.4.0rc3.tgz" -o xdebug-2.4.0rc3.tgz && \
     tar -xvzf xdebug-2.4.0rc3.tgz -C /usr/src/xdebug --strip-components=1 && \
+    rm xdebug-2.4.0rc3.tgz && \
+
+    cd /usr/src/xdebug && \
     phpize && \
     ./configure && \
     make && \
     cp modules/xdebug.so /usr/local/lib/php/extensions/no-debug-non-zts-20151012 && \
-    rm xdebug-2.4.0rc3.tgz && \
 
     apt-get remove -y ${PACKAGES_FOR_BUILD} && \
     apt-get autoremove -y && \
