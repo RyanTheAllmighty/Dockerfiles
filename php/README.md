@@ -43,3 +43,6 @@ You also have access to PHP-FPM so you can startup up a PHP FPM server on port 9
 ```
 docker run -d ryantheallmighty/php php-fpm
 ```
+
+# XDebug
+Xdebug is included in versions 5.6.17 and above as well as versions 7.0.2 and above.
