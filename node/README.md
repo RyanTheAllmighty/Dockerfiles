@@ -5,7 +5,7 @@ This is a build for [NodeJS](https://nodejs.org/en/).
 
 # Versions & Tags
 - `4.2.3`
-- `4.2.4`, `4.2`, `4`
+- `4.2.4`, `4.2`, `4`, `lts`
 - `5.1.1`, `5.1`
 - `5.2.0`, `5.2`
 - `5.3.0`, `5.3`
