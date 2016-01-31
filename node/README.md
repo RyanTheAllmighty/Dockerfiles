@@ -5,12 +5,15 @@ This is a build for [NodeJS](https://nodejs.org/en/).
 
 # Versions & Tags
 - `4.2.3`
-- `4.2.4`, `4.2`, `4`, `lts`
+- `4.2.4`
+- `4.2.5`
+- `4.2.6`, `4.2`, `4`, `lts`
 - `5.1.1`, `5.1`
 - `5.2.0`, `5.2`
 - `5.3.0`, `5.3`
 - `5.4.0`
-- `5.4.1`, `5.4`, `5`, `latest`
+- `5.4.1`, `5.4`
+- `5.5.0`, `5.5`, `5`, `latest`
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/node).
