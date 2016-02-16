@@ -6,7 +6,8 @@ This is a build for [RethinkDB](http://rethinkdb.com/).
 # Versions & Tags
 - `2.2.1`
 - `2.2.2`
-- `2.2.3`, `2.2`, `2`, `latest`
+- `2.2.3`
+- `2.2.4`, `2.2`, `2`, `latest`
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/rethinkdb).
