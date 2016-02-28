@@ -11,7 +11,8 @@ This images uses a nginx user and a nginx group for the nginx process.
 - `1.9.7`
 - `1.9.9`
 - `1.9.10`
-- `1.9.11`, `1.9`, `1`, `latest`
+- `1.9.11`
+- `1.9.12`, `1.9`, `1`, `latest`
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/nginx).
