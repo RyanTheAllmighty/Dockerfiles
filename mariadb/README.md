@@ -7,7 +7,8 @@ This is a build for [MariaDB](https://mariadb.org/).
 - `10.1.9`
 - `10.1.10`
 - `10.1.11`
-- `10.1.12`, `10.1`, `10`, `latest`
+- `10.1.12`
+- `10.1.13`, `10.1`, `10`, `latest`
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/mariadb).
