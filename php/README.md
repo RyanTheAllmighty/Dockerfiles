@@ -7,11 +7,13 @@ This is a build for [PHP](http://php.net/).
 - `5.6.16`
 - `5.6.17`
 - `5.6.18`
-- `5.6.19`, `5.6`, `5`
+- `5.6.19`
+- `5.6.20`, `5.6`, `5`
 - `7.0.1`
 - `7.0.2`
 - `7.0.3`
-- `7.0.4`, `7.0`, `7`, `latest`
+- `7.0.4`
+- `7.0.5`, `7.0`, `7`, `latest`
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/php).
@@ -26,15 +28,6 @@ This is stored in /usr/local/etc/php/conf.d/ and provides overwrites for PHP.ini
 ## php-fpm.conf
 This is stored in /usr/local/etc/ and provides the config for PHP-FPM.
 
-# Directories
-## /mnt/logs/php/
-This directory is where all of the PHP-FPM logs are stored.
-
-# Environment Variables
-## USE_REDIS_FOR_SESSIONS
-When this environment variable is provided and is set to true it will enable the use of Redis for sessions. By default it expects there to be an instance of Redis running with a host of 'redis' on
-port '6379'.
-
 # Usage
 To use this image simply run it like the following:
 
@@ -42,11 +35,15 @@ To use this image simply run it like the following:
 docker run -it ryantheallmighty/php php --version
 ```
 
-You also have access to PHP-FPM so you can startup up a PHP FPM server on port 9000 with the following:
+You also have access to PHP-FPM so you can start a PHP FPM server on port 9000 with the following:
 
 ```
 docker run -d ryantheallmighty/php php-fpm
 ```
 
 # XDebug
-Xdebug is included and enabled by default in versions 5.6.17 and above as well as versions 7.0.2 and above.
+Xdebug is compiled but not enabled by default. To enable it simply add in the following line to the `/usr/local/etc/php/conf.d/custom.ini` file:
+
+```
+zend_extension = /usr/local/lib/php/extensions/no-debug-non-zts-20151012/xdebug.so
+```

@@ -57,14 +57,10 @@ RUN set -x && \
 
 COPY custom.ini /usr/local/etc/php/conf.d/custom.ini
 COPY php-fpm.conf /usr/local/etc/php-fpm.conf
-COPY entrypoint.sh /entrypoint.sh
 
 RUN chown www-data:www-data /usr/local/etc/php-fpm.conf && \
     chown www-data:www-data /usr/local/etc/php/conf.d/custom.ini
 
 EXPOSE 9000
 
-VOLUME ["/mnt/logs/php"]
-
-ENTRYPOINT ["/entrypoint.sh"]
 CMD ["php"]
