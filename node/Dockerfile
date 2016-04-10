@@ -34,7 +34,4 @@ RUN set -x && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/src /usr/lib/gcc /usr/share/doc /usr/share/man
 
-COPY entrypoint.sh /entrypoint.sh
-
-ENTRYPOINT ["/entrypoint.sh"]
 CMD ["node"]
