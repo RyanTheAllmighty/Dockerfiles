@@ -5,12 +5,9 @@ This is a build for [HHVM](http://hhvm.com/).
 
 # Versions & Tags
 - `3.6.6`, `3.6`
-- `3.9.1`
 - `3.9.2`, `3.9`
-- `3.11.0`
-- `3.11.1`, `3.11`
-- `3.12.0`
-- `3.12.1`, `3.12`, `3`, `latest`
+- `3.12.1`, `3.12`
+- `3.13.1`, `3.13`, `3`, `latest`
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/hhvm).
@@ -18,11 +15,6 @@ The files for this build are available [here](https://github.com/RyanTheAllmight
 # Included Configs
 ## server.ini
 This is stored in /etc/hhvm/ and provides the config for HHVM
-
-# Environment Variables
-## USE_REDIS_FOR_SESSIONS
-When this environment variable is provided and is set to true it will enable the use of Redis for sessions. By default it expects there to be an instance of Redis running with a host of 'redis' on
-port '6379'.
 
 # Ports
 This image exposes port 9000 for communication with HHVM.
@@ -47,4 +39,8 @@ docker run -d ryantheallmighty/hhvm hhvm --config /etc/hhvm/server.ini --user ww
 ```
 
 # XDebug
-Xdebug is enabled by default.
+Xdebug is not enabled by default. To enable it simply add in the following line to the `/etc/hhvm/server.ini` file:
+
+```
+xdebug.enable=1
+```
