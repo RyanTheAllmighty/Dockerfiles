@@ -13,7 +13,8 @@ This is a build for [NodeJS](https://nodejs.org/en/).
 - `4.3.2`, `4.3`
 - `4.4.0`
 - `4.4.1`
-- `4.4.2`, `4.4`, `4`, `lts`
+- `4.4.2`
+- `4.4.3`, `4.4`, `4`, `lts`
 - `5.1.1`, `5.1`
 - `5.2.0`, `5.2`
 - `5.3.0`, `5.3`
@@ -27,7 +28,8 @@ This is a build for [NodeJS](https://nodejs.org/en/).
 - `5.9.0`
 - `5.9.1`, `5.9`
 - `5.10.0`
-- `5.10.1`, `5.10`, `5`, `latest`
+- `5.10.1`, `5.10`
+- `5.11.0`, `5.11`, `5`, `latest`
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/node).
