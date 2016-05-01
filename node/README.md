@@ -29,7 +29,8 @@ This is a build for [NodeJS](https://nodejs.org/en/).
 - `5.9.1`, `5.9`
 - `5.10.0`
 - `5.10.1`, `5.10`
-- `5.11.0`, `5.11`, `5`, `latest`
+- `5.11.0`, `5.11`, `5`
+- `6.0.0`, `6.0`, `6`, `latest`
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/node).
