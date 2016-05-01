@@ -8,12 +8,14 @@ This is a build for [PHP](http://php.net/).
 - `5.6.17`
 - `5.6.18`
 - `5.6.19`
-- `5.6.20`, `5.6`, `5`
+- `5.6.20`
+- `5.6.21`, `5.6`, `5`
 - `7.0.1`
 - `7.0.2`
 - `7.0.3`
 - `7.0.4`
-- `7.0.5`, `7.0`, `7`, `latest`
+- `7.0.5`
+- `7.0.6`, `7.0`, `7`, `latest`
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/php).
