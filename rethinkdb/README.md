@@ -11,7 +11,8 @@ This is a build for [RethinkDB](http://rethinkdb.com/).
 - `2.2.5`
 - `2.2.6`, `2.2`
 - `2.3.0`
-- `2.3.1`, `2.3`, `2`, `latest`
+- `2.3.1`
+- `2.3.2`, `2.3`, `2`, `latest`
 
 # Github
 The files for this build are available [here](https://github.com/RyanTheAllmighty/Dockerfiles/tree/master/rethinkdb).
